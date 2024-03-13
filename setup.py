@@ -11,7 +11,7 @@ with open("requirements.txt", "r") as fh:
 script_list=[]
 
 setuptools.setup(
-     name='weighted_stats',  
+     name='wstats',  
      version='0.0.99',
      author="Scott Tyler",
      author_email="scottyler89@gmail.com",

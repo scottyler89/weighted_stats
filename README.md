@@ -6,7 +6,8 @@ At the moment, it's just the weighted t-test, but this may expand.
 
 ## How?
 ```python
-from weighted_stats import wtd_t_test
+import numpy as np
+from wstats import wtd_t_test
 
 # Example data for testing
 x = np.random.normal(0, 1, 100)
